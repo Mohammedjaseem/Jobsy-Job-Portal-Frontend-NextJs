@@ -1,11 +1,8 @@
-import React, { useEffect, useState, useContext } from "react";
-import JobContext from "../../context/JobContext";
-import { toast } from "react-toastify";
-import Loader from '../layout/Loader'
+
+
 import Image from 'next/image'
 
 const VerifyRec = ({data}) => {
-  const [topic, setTopic] = useState("");
 
   return (
     <div className="modalMask">

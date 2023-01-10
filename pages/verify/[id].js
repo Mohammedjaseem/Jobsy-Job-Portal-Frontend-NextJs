@@ -1,6 +1,6 @@
 
 import Layout from '../../components/layout/Layout'
-import VerifyRec from '../../components/verify/verifyRec'
+import VerifyRec from '../../components/verifyprofile/VerifyRec'
 
 import axios from 'axios'
 
