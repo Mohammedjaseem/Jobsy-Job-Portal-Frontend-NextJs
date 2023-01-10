@@ -77,7 +77,7 @@ const UploadResume = ({access_token}) => {
                     <>
                     <h4 className="text-center my-3">OR</h4>
 
-                    <Link href={`http://127.0.0.1:8000/media/${user.resume}`} target="_blank">
+                    <Link href={`http://jobssy-api.jassy.in/media/${user.resume}`} target="_blank">
                       <div
                         className="text-success text-center ml-4"
                         rel="noreferrer"

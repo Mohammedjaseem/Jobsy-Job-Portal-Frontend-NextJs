@@ -97,7 +97,7 @@ const JobCandidates = ({ candidatesApplied, access_token }) => {
         salary: item.salary,
         resume: (
           <Link
-            href={`http://127.0.0.1:8000/media/${item.resume}`}
+            href={`http://jobssy-api.jassy.in/media/${item.resume}`}
             target="_blank"
           >
             <div className="text-success text-center ml-4" rel="noreferrer">
