@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: false,
   env:{
-    API_URL: 'http://jobssy-api.jassy.in/',  
+    API_URL: 'https://jobssy-api.jassy.in/',  
   },
 };
 
